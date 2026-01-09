@@ -155,7 +155,7 @@ def main():
     )
     
     # 데이터 로드
-    default_path = os.path.join(os.path.dirname(__file__), 'default_data.csv')
+    default_path = os.path.join(os.path.dirname(__file__), 'ta_20260109154427.csv')
     
     if uploaded_file is not None:
         df = load_data(uploaded_file=uploaded_file)
